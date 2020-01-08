@@ -1,3 +1,3 @@
-class profile::splunk-fw {
+class profile::splunkfw {
   include ::splunk::forwarder
 }
