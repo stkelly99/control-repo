@@ -1,3 +1,3 @@
-class role::splunk-fw-svr {
+class role::splunkfwsvr {
   include profile::splunk-fw
   }
