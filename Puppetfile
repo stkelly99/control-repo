@@ -1,0 +1,6 @@
+mod 'puppet/splunk', '7.3.0'
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/inifile'
+mod 'puppetlabs/concat'
+mod 'puppet/archive'
+mod 'puppetlabs/translate' 
