@@ -1,5 +1,5 @@
 class profile::agent_nodes {
 include dockeragent
-dockeragent::{'fwd1.puppet.vm':}
-dockeragent::{'fwd2.puppet.vm':}
+dockeragent::node{'fwd1.puppet.vm':}
+dockeragent::node{'fwd2.puppet.vm':}
 }
